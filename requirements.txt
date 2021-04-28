@@ -1,0 +1,4 @@
+wheel
+spokestack==0.0.20
+pyaudio
+streamp3
