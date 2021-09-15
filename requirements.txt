@@ -2,3 +2,5 @@ wheel
 spokestack==0.0.20
 pyaudio
 streamp3
+numpy==1.19.2
+cython==0.29.22
