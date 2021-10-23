@@ -30,7 +30,8 @@ def main():
     def on_activate(context):
         manager.synthesize("wake word detected", "text", "demo-male")
 
-
+    pipeline.run()
+    
 def download_models(model_url):
     """Download wake word models from URL."""
     _LOGGER.info("Downloading Wake Word Models")
